@@ -1,0 +1,15 @@
+{
+  "name": "hashkat.js",
+  "version": "0.0.0",
+  "description": "A NodeJS server for remote hashkat sessions.",
+  "main": "index.js",
+  "author": "Adam Domurad",
+  "private": true,
+  "license": "GPL3",
+  "dependencies": {
+    "express": "^4.12.3",
+    "socket.io": "^1.3.5",
+    "coffee-script": "^1.9.2",
+    "browserify": "^10.1.3"
+  }
+}
