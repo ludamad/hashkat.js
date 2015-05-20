@@ -1,0 +1,4 @@
+*.sw*
+public/*.js
+server/*.js
+node_modules/

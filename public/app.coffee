@@ -18,7 +18,7 @@ socket.on 'input', (msg) ->
     $('#textarea').append($('<li>').text(msg))
 
 $('#start').click () ->
-    socket.emit 'start', ACE_EDITOR.getValue()
+    socket.emit 'start', ACE_EDITOR._getValue()
 $('#stop').click () ->
     socket.emit 'stop', ''
 
